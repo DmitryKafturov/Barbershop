@@ -1,0 +1,33 @@
+/* body {
+    width: 800px;
+    margin: auto;
+}
+.contener {
+    width: 700px;
+}
+.contener__button {
+    width: 100px;
+    height: 100px;
+    border: 10px solid red;
+    border-radius: 60%;
+}
+.contener__button--yellow {
+    background-color: black;
+    background-image: url(../images/vk.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contener__button--green {
+    background-color: green;
+}
+.contener___list {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+}
+.contener___link:focus,
+.contener___link:hover {
+    content: "";
+} */

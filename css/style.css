@@ -63,7 +63,6 @@ input[type="radio"].visually-hidden {
     opacity: 0.5;
     background-color: #000000;
 }
-
 .main-navigation {
     display: flex;
     flex-direction: column;
@@ -78,10 +77,11 @@ input[type="radio"].visually-hidden {
     margin-bottom: 60px;
     background-color: #000000;
 }
-
 .main-navigation-wrapper .container {
     display: flex;
     justify-content: space-between;
+
+    background-color: #000000;
 }
 .site-navigation {
     display: flex;
@@ -95,7 +95,6 @@ input[type="radio"].visually-hidden {
     height: 153px;
     order: 2;
 }
-
 .user-navigation {
     display: flex;
     width: 140px;
@@ -127,7 +126,6 @@ input[type="radio"].visually-hidden {
 .login-link:active::before {
     opacity: 1;
 }
-
 .site-navigation,
 .user-navigation {
     list-style: none;
@@ -152,7 +150,6 @@ input[type="radio"].visually-hidden {
 .features {
     margin-bottom: 80px;
 }
-
 .features-list {
     display: flex;
     justify-content: space-between;
@@ -208,13 +205,11 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     line-height: 42px;
 }
-
 .news {
     width: 380px;
 }
 .news-list {
     padding: 0;
-
     list-style: none;
 }
 .news-item {
@@ -232,7 +227,6 @@ time {
 .gallery-content {
     height: 164px;
     margin: 0;
-
     background-color: #cccccc;
     border: 7px solid #ffffff;
 }
@@ -262,7 +256,6 @@ time {
 .contact {
     width: 380px;
 }
-
 .contact p {
     margin: 0;
     margin-bottom: 25px;

@@ -1,0 +1,38 @@
+$width: 950px;
+
+%tplborder {
+    box-shadow: 5px sandybrown;
+    border: 10px solid sandybrown;
+    font-size: 15px;
+}
+%mb {
+    margin-top: 60px;
+}
+@mixin margin($fs) {
+    margin: $fs;
+}
+.blok__nav {
+    @extend %mb;
+}
+.blok__contener {
+    @include margin(100px);
+    width: 900px/1200px * 100%;
+}
+.blok__list {
+    display: flex;
+    justify-content: space-around;
+    width: $width;
+    margin: 0 auto;
+    .blok__eliment {
+        background-color: sienna;
+        text-decoration: none;
+
+        .blok__element-link {
+            &:hover {
+                color: sienna;
+                border-bottom: 5px solid orange;
+            }
+            @extend %tplborder;
+        }
+    }
+}

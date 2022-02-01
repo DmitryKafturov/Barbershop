@@ -1,0 +1,29 @@
+.blok__list .blok__eliment .blok__element-link {
+  box-shadow: 5px sandybrown;
+  border: 10px solid sandybrown;
+  font-size: 15px;
+}
+
+.blok__nav {
+  margin-top: 60px;
+}
+
+.blok__contener {
+  margin: 100px;
+  width: 75%;
+}
+
+.blok__list {
+  display: flex;
+  justify-content: space-around;
+  width: 950px;
+  margin: 0 auto;
+}
+.blok__list .blok__eliment {
+  background-color: sienna;
+  text-decoration: none;
+}
+.blok__list .blok__eliment .blok__element-link:hover {
+  color: sienna;
+  border-bottom: 5px solid orange;
+}

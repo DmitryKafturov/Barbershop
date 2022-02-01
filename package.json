@@ -1,0 +1,24 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "сборка gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryKafturov/barbershop.git"
+  },
+  "author": "gulp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryKafturov/barbershop/issues"
+  },
+  "homepage": "https://github.com/DmitryKafturov/barbershop#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.42.1"
+  }
+}
